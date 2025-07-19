@@ -1,4 +1,4 @@
-package com.solidchat.model.chat;
+package com.solidchat.model.chat.entity;
 
 import java.util.UUID;
 

@@ -1,8 +1,8 @@
 package com.solidchat.model.chat.factory;
 
 
-import com.solidchat.model.chat.Chat;
-import com.solidchat.model.chat.GroupChat;
+import com.solidchat.model.chat.entity.Chat;
+import com.solidchat.model.chat.entity.GroupChat;
 
 public class GroupChatFactory extends ChatFactory{
 

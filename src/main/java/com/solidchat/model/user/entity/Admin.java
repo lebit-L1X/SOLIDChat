@@ -1,7 +1,6 @@
-package com.solidchat.model.user;
+package com.solidchat.model.user.entity;
 
-import com.solidchat.model.chat.GroupChat;
-import com.solidchat.model.chat.Message;
+import com.solidchat.model.chat.entity.GroupChat;
 
 import java.util.UUID;
 
@@ -49,12 +48,12 @@ public class Admin extends User implements IAdmin, IChatter {
 
 
     @Override
-    public void addChat(Thread thread, com.solidchat.model.chat.Message message) {
+    public void addChat(Thread thread, com.solidchat.model.chat.entity.Message message) {
 
     }
 
     @Override
-    public void unsendChat(Thread thread, com.solidchat.model.chat.Message message) {
+    public void unsendChat(Thread thread, com.solidchat.model.chat.entity.Message message) {
 
     }
 }

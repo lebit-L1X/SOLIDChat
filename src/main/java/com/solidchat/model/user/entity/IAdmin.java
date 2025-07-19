@@ -1,6 +1,6 @@
-package com.solidchat.model.user;
+package com.solidchat.model.user.entity;
 
-import com.solidchat.model.chat.GroupChat;
+import com.solidchat.model.chat.entity.GroupChat;
 
 import java.sql.Time;
 import java.util.UUID;

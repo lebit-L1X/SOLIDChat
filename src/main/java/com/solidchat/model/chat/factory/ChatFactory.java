@@ -1,6 +1,6 @@
 package com.solidchat.model.chat.factory;
 
-import com.solidchat.model.chat.Chat;
+import com.solidchat.model.chat.entity.Chat;
 
 import java.util.UUID;
 

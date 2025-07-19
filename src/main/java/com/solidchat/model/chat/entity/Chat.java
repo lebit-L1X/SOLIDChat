@@ -1,8 +1,5 @@
-package com.solidchat.model.chat;
+package com.solidchat.model.chat.entity;
 
-import com.solidchat.model.user.User;
-
-import java.util.ArrayList;
 import java.util.UUID;
 
 

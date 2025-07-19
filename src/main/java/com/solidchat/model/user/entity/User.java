@@ -1,14 +1,18 @@
-package com.solidchat.model.user;
+package com.solidchat.model.user.entity;
+
+import com.solidchat.model.user.valueobject.Displayname;
+import com.solidchat.model.user.valueobject.Password;
+import com.solidchat.model.user.valueobject.Username;
 
 import java.util.UUID;
 
 public abstract class User {
-    private final String username;
-    private final String password;
-    private final String displayName;
+    private final Username username;
+    private final Password password;
+    private final Displayname displayName;
     private final UUID userId;
 
-    public User(String username, String password, String displayName, UUID userId){
+    public User(Username username, Password password, Displayname displayName, UUID userId){
         this.username = username;
         this.password = password;
         this.displayName = displayName;

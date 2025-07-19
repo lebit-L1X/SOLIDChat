@@ -1,6 +1,5 @@
-package com.solidchat.model.chat;
+package com.solidchat.model.chat.entity;
 
-import java.util.ArrayList;
 import java.util.UUID;
 
 public class GroupChat extends Chat {
