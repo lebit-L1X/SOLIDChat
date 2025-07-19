@@ -3,7 +3,7 @@ package com.solidchat.model.chat;
 import java.util.UUID;
 
 public class BillboardChat extends Chat{
-    protected BillboardChat(UUID chatId) {
+   public BillboardChat(UUID chatId) {
         super(chatId);
     }
 }

@@ -5,7 +5,8 @@ import java.util.UUID;
 
 public class GroupChat extends Chat {
 
-    GroupChat(){
+    public GroupChat(UUID chatId){
+        super(chatId);
     }
 }
 
