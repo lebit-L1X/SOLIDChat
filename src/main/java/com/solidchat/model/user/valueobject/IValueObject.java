@@ -4,5 +4,5 @@ import java.io.Serializable;
 
 public interface IValueObject<T> extends Serializable {
     boolean sameValueAs(T other);
-    String toString(T value);
+    String toString();
 }

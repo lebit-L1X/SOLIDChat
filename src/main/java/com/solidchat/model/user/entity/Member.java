@@ -1,6 +1,9 @@
 package com.solidchat.model.user.entity;
 
 import com.solidchat.model.chat.entity.Message;
+import com.solidchat.model.user.valueobject.Displayname;
+import com.solidchat.model.user.valueobject.Password;
+import com.solidchat.model.user.valueobject.Username;
 
 import java.util.UUID;
 
@@ -8,7 +11,7 @@ public class Member extends User implements IChatter {
 
     private boolean muted;
 
-    public Member(String username, String password, String displayName) {
+    public Member(Username username, Password password, Displayname displayName) {
         super(username, password, displayName, UUID.randomUUID()  );
     }
 

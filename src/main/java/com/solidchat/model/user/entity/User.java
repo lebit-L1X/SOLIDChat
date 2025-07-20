@@ -23,8 +23,6 @@ public abstract class User {
         return (this.username.equals(inputUsername) && this.password.equals(inputPassword));
     }
 
-    public String getDisplayName(){
-        return this.displayName;
-    }
+
 
 }

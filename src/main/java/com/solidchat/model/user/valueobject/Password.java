@@ -14,16 +14,12 @@ public class Password implements IValueObject<Password> {
     }
 
     @Override
-    public String toString(Password object) {
+    public String toString() {
         return value;
     }
 
-    public static Password createPassword(String password) {
+    public Password(String password) {
         Validate.isTrue(validatePassword(password), "Invalid password");
-        return new Password(password);
-    }
-
-    private Password(String password) {
         this.value = password;
     }
 

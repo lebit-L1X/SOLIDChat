@@ -1,12 +1,15 @@
 package com.solidchat.model.user.entity;
 
 import com.solidchat.model.chat.entity.GroupChat;
+import com.solidchat.model.user.valueobject.Displayname;
+import com.solidchat.model.user.valueobject.Password;
+import com.solidchat.model.user.valueobject.Username;
 
 import java.util.UUID;
 
 public class Admin extends User implements IAdmin, IChatter {
 
-    public Admin(String username, String password, String displayName) {
+    public Admin(Username username, Password password, Displayname displayName) {
         super(username, password, displayName, UUID.randomUUID());
     }
 
